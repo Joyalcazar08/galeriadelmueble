@@ -32,3 +32,8 @@ require_once('componentes/masthead.php');
  <?php
  require_once('componentes/team_section.php');
  ?>
+
+ <!-- Contact-->
+ <?php
+ require_once('componentes/contact_section.php');
+ ?>
