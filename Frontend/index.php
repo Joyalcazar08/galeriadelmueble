@@ -22,3 +22,13 @@ require_once('componentes/masthead.php');
  <?php
  require_once('componentes/About_section.php');
  ?>
+
+    <!-- Portfolio Modals-->
+<?php
+ require_once('componentes/portafolio_items.php');
+ ?>
+
+<!-- Team-->
+ <?php
+ require_once('componentes/team_section.php');
+ ?>
