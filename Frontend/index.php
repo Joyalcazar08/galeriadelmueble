@@ -37,3 +37,8 @@ require_once('componentes/masthead.php');
  <?php
  require_once('componentes/contact_section.php');
  ?>
+
+<!-- Footer -->
+<?php
+ require_once('componentes/footer.php');
+ ?>

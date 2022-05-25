@@ -18,7 +18,13 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Comedores</div>
-                                <div class="portfolio-caption-subheading text-muted"></div>
+                                <form>
+                                     <a href="http://localhost/Galeridemuebles/Frontend/index2.php">
+                                      <input type="button" value="Ver">
+                                     </a>
+                                </form>
+                             <!--<a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Ver</a>-->
+
                             </div>
                         </div>
                     </div>
@@ -33,6 +39,11 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Salas</div>
+                                <form>
+                                     <a href="http://localhost/Galeridemuebles/Frontend/index2.php">
+                                      <input type="button" value="Ver">
+                                     </a>
+                                </form>
                                 <div class="portfolio-caption-subheading text-muted"></div>
                             </div>
                         </div>
@@ -48,6 +59,11 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Camas</div>
+                                <form>
+                                     <a href="http://localhost/Galeridemuebles/Frontend/index2.php">
+                                      <input type="button" value="Ver">
+                                     </a>
+                                </form>
                                 <div class="portfolio-caption-subheading text-muted"></div>
                             </div>
                         </div>
@@ -63,6 +79,11 @@
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Closets</div>
+                                <form>
+                                     <a href="http://localhost/Galeridemuebles/Frontend/index2.php">
+                                      <input type="button" value="Ver">
+                                     </a>
+                                </form>
                                 <div class="portfolio-caption-subheading text-muted"></div>
                             </div>
                         </div>
