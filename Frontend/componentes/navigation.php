@@ -16,8 +16,8 @@
                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                          <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index2.php">Comedores</a>
                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index3.php">Salas</a>
-                         <a class="dropdown-item" href="#">Camas</a>
-                         <a class="dropdown-item" href="#">Closets</a>
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index4.php">Camas</a>
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index5.php">Closets</a>
                     </div>
                          <div class="container">
   <!--  <div class="dropdown">
