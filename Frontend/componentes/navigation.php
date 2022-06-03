@@ -13,12 +13,28 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
                           Productos
                          </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                         <a class="dropdown-item" href="#">Comedores</a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index2.php">Comedores</a>
                         <a class="dropdown-item" href="#">Salas</a>
                          <a class="dropdown-item" href="#">Camas</a>
                          <a class="dropdown-item" href="#">Closets</a>
                     </div>
+                         <div class="container">
+  <!--  <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-toggle="dropdown">
+        Buscadores
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="http://www.google.com">Google</a>
+        <a class="dropdown-item" href="http://www.bing.com">Bing</a>
+        <a class="dropdown-item" href="http://www.yahoo.com">Yahoo</a>
+      </div>
+    </div>  
+  </div> -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
                      </li>
                         <!--<li class="nav-item"><a class="nav-link" href="#portfolio">Productos</a></li>-->
 

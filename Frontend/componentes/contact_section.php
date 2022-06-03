@@ -5,13 +5,6 @@
                     <h2 class="section-heading text-uppercase">Contactanos</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
                 <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -61,4 +54,4 @@
                     <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar Mensaje</button></div>
                 </form>
             </div>
-        </section>
+        </section>      
