@@ -10,7 +10,7 @@
 
 <!--Navegacion 2-->
 <?php
- require_once('componentes/navegacion5.php');
+ require_once('componentes5/navegacion5.php');
  ?>
  
 <!-- Footer -->
