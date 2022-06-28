@@ -13,14 +13,14 @@ require_once('componentes/navigation.php');
 require_once('componentes/masthead.php');
 ?>
 
+<!--Services-->
+<?php
+require_once('componentes/services_section.php');
+?>
+
  <!-- About-->
  <?php
  require_once('componentes/About_section.php');
- ?>
-
-    <!-- Portfolio Modals-->
-<?php
- require_once('componentes/portafolio_items.php');
  ?>
 
 <!-- Team-->
