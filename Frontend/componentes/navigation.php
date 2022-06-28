@@ -14,10 +14,10 @@
                           Productos
                          </a>
                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index2.php">Comedores</a>
-                        <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index3.php">Salas</a>
-                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index4.php">Camas</a>
-                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/index5.php">Closets</a>
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/comedores.html">Comedores</a>
+                        <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/salas.html">Salas</a>
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/camas.html">Camas</a>
+                         <a class="dropdown-item" href="http://localhost/Galeridemuebles/Frontend/closets.html">Closets</a>
                     </div>
                          <div class="container">
   <!--  <div class="dropdown">
