@@ -36,7 +36,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="http://localhost/galeriadelmueble/Frontend/index.html#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="http://galeriadelmueble.byethost7.com/index.html#">Inicio</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
@@ -72,68 +72,92 @@
     </nav>
 
     <!--Mashead-->
-    <section class="page-section" id="card">
-        <div class="container">
-            <div class="card-text" style="display: inline-flex; flex-wrap: wrap; justify-content: space-evenly;">
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
+        <section class="modal-container" id="image">
+            <div class="container">
+                <style>
+                    * {
+                        box-sizing: border-box;
+                    }
+    
+                    .columna {
+                        float: left;
+                        width: 33%;
+                        padding-right: 5px;
+                    }
+    
+                    .fila::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+    
+                    img {
+                        /* Para que sea responsiva */
+                        width: 100%;
+                        padding: 5px;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.13);
+                    }
+    
+                    #modalContent {
+                        position: absolute;
+                        top: 30%;
+                        left: 35%;
+                        z-index: 6;
+                        float: left;
+                        margin: -2% 0px 0px -150px;
+                        width: 700px;
+                        color: #888888;
+                        line-height: 22px;
+                        padding: 15px;
+                        border-radius: 5px;
+                        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 56);
+                    }
+    
+                    #modal {
+                        position: fixed;
+                        top: 0px;
+                        left: 0px;
+                        z-index: 5;
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.2);
+                        display: none;
+                        opacity: 0;
+                    }
+    
+                    :target {
+                        display: block !important;
+                        opacity: 1 !important;
+                    }
+                </style>
+    
+                <div class="fila">
+                    <div class="columna">
+                        <img src="assets/img/salas/1.png">
+                    </div>
+                    <div class="columna">
+                        <img src="assets/img/closets/1.png">
+                    </div>
+                    <div class="columna">
+                        <img src="assets/img/closets/2.png">
                     </div>
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
+                <div class="fila">
+                    <div class="columna">
+                        <img src="assets/img/closets/3.png">
                     </div>
-                </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
+                    <div class="columna">
+                        <img src="assets/img/closets/4.png">
                     </div>
-                </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/closets/6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Armario Closet Moderno con Espejo, Color Blanco</h5>
-                        <p class="card-text">Tiene 8 puertas con apertura tipo "batiente".
-                           Cuenta con elegantes agarraderas color bronce para abrir y cerrar sin
-                            dificultad. </br>
-                            El material del mueble es madera reforestada.</br>
-                        </p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">1.000.000</a>
+                    <div class="columna">
+                        <img src="assets/img/closets/5.png">
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Footer-->

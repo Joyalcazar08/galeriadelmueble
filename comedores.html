@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <!-- head--->
+<!-- head--->
 
-   <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -15,8 +15,7 @@
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet"
-        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -36,13 +35,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="http://galeriadelmueble.byethost7.com/index.html#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="http://galeriadelmueble.byethost7.com/index.html#">Inicio</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href=# id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
-                        <div class="dropdown-menu" style=" background-color:#143753;" aria-labelledby="navbarDropdownMenuLink" >
+                        <div class="dropdown-menu" style=" background-color:#143753;"
+                            aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" style="color: white;"
                                 href="http://galeriadelmueble.byethost7.com/comedores.html">Comedores</a>
                             <a class="dropdown-item" style="color: white;"
@@ -63,75 +64,106 @@
                                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                                 crossorigin="anonymous"></script>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="http://galeriadelmueble.byethost7.com/index.html#about">Acerca</a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://galeriadelmueble.byethost7.com/index.html#about#team">Nuestro Grupo </a></li>
-                    <li class="nav-item"><a class="nav-link" href="http://galeriadelmueble.byethost7.com/index.html#about#contact">Contactanos</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="http://galeriadelmueble.byethost7.com/index.html#about">Acerca</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="http://galeriadelmueble.byethost7.com/index.html#about#team">Nuestro Grupo </a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="http://galeriadelmueble.byethost7.com/index.html#about#contact">Contactanos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!--Mashead-->
-    <section class="page-section" id="card">
+    <section class="modal-container" id="image">
         <div class="container">
-            <div class="card-text" style="display: inline-flex; flex-wrap: wrap; justify-content: space-evenly;">
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+
+                .columna {
+                    float: left;
+                    width: 33%;
+                    padding-right: 5px;
+                }
+
+                .fila::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+
+                img {
+                    /* Para que sea responsiva */
+                    width: 100%;
+                    padding: 5px;
+                }
+
+                img:hover {
+                    transform: scale(1.13);
+                }
+
+                #modalContent {
+                    position: absolute;
+                    top: 30%;
+                    left: 35%;
+                    z-index: 6;
+                    float: left;
+                    margin: -2% 0px 0px -150px;
+                    width: 700px;
+                    color: #888888;
+                    line-height: 22px;
+                    padding: 15px;
+                    border-radius: 5px;
+                    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 56);
+                }
+
+                #modal {
+                    position: fixed;
+                    top: 0px;
+                    left: 0px;
+                    z-index: 5;
+                    float: left;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.2);
+                    display: none;
+                    opacity: 0;
+                }
+
+                :target {
+                    display: block !important;
+                    opacity: 1 !important;
+                }
+            </style>
+
+            <div class="fila">
+                <div class="columna">
+                    <img src="assets/img/comedores/1.png">
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
+                <div class="columna">
+                    <img src="assets/img/comedores/2.png">
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color:#f86f13">$800.000</a>
-                    </div>
+                <div class="columna">
+                    <img src="assets/img/comedores/3.png">
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
+            </div>
+            <div class="fila">
+                <div class="columna">
+                    <img src="assets/img/comedores/4.png">
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/5.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
+                <div class="columna">
+                    <img src="assets/img/comedores/5.png">
                 </div>
-                <div class="card" style="max-width: 18rem; background: #143753; color: white;">
-                    <img src="assets/img/comedores/6.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary" style="background-color: #f86f13">Go somewhere</a>
-                    </div>
+                <div class="columna">
+                    <img src="assets/img/comedores/6.png">
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Footer-->
     <footer class="footer py-4" style=" background-color:#143753; color: white;">
