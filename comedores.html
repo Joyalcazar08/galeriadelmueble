@@ -35,23 +35,22 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link"
-                            href="http://galeriadelmueble.byethost7.com/index.html#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href=# id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             Productos
                         </a>
-                        <div class="dropdown-menu" style=" background-color:#143753;"
+                        <div class="dropdown-menu " style=" background-color:#143753;"
                             aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" style="color: white;"
-                                href="http://galeriadelmueble.byethost7.com/comedores.html">Comedores</a>
+                                href="http://localhost/galeriadelmueble/comedores.html">Comedores</a>
                             <a class="dropdown-item" style="color: white;"
-                                href="http://galeriadelmueble.byethost7.com/salas.html">Salas</a>
+                                href="http://localhost/galeriadelmueble/salas.html">Salas</a>
                             <a class="dropdown-item" style="color: white;"
-                                href="http://galeriadelmueble.byethost7.com/camas.html">Camas</a>
+                                href="http://localhost/galeriadelmueble/camas.html">Camas</a>
                             <a class="dropdown-item" style="color: white;"
-                                href="http://galeriadelmueble.byethost7.com/closets.html">Closets</a>
+                                href="http://localhost/galeriadelmueble/closets.html">Closets</a>
                         </div>
                         <div class="container">
                             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -64,105 +63,72 @@
                                 integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                                 crossorigin="anonymous"></script>
                     </li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="http://galeriadelmueble.byethost7.com/index.html#about">Acerca</a></li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="http://galeriadelmueble.byethost7.com/index.html#about#team">Nuestro Grupo </a></li>
-                    <li class="nav-item"><a class="nav-link"
-                            href="http://galeriadelmueble.byethost7.com/index.html#about#contact">Contactanos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Acerca</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Nuestro Grupo </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contactanos</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!--Mashead-->
-    <section class="modal-container" id="image">
-        <div class="container">
-            <style>
-                * {
-                    box-sizing: border-box;
-                }
-
-                .columna {
-                    float: left;
-                    width: 33%;
-                    padding-right: 5px;
-                }
-
-                .fila::after {
-                    content: "";
-                    clear: both;
-                    display: table;
-                }
-
-                img {
-                    /* Para que sea responsiva */
-                    width: 100%;
-                    padding: 5px;
-                }
-
-                img:hover {
-                    transform: scale(1.13);
-                }
-
-                #modalContent {
-                    position: absolute;
-                    top: 30%;
-                    left: 35%;
-                    z-index: 6;
-                    float: left;
-                    margin: -2% 0px 0px -150px;
-                    width: 700px;
-                    color: #888888;
-                    line-height: 22px;
-                    padding: 15px;
-                    border-radius: 5px;
-                    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 56);
-                }
-
-                #modal {
-                    position: fixed;
-                    top: 0px;
-                    left: 0px;
-                    z-index: 5;
-                    float: left;
-                    width: 100%;
-                    height: 100%;
-                    background: rgba(0, 0, 0, 0.2);
-                    display: none;
-                    opacity: 0;
-                }
-
-                :target {
-                    display: block !important;
-                    opacity: 1 !important;
-                }
-            </style>
-
-            <div class="fila">
-                <div class="columna">
-                    <img src="assets/img/comedores/1.png">
-                </div>
-                <div class="columna">
-                    <img src="assets/img/comedores/2.png">
-                </div>
-                <div class="columna">
-                    <img src="assets/img/comedores/3.png">
-                </div>
+       <div class="gallery">
+      
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/1.png">
+                    <img src="assets/img/comedores/1.png" alt="Comedores">
+                </a>
             </div>
-            <div class="fila">
-                <div class="columna">
-                    <img src="assets/img/comedores/4.png">
-                </div>
-                <div class="columna">
-                    <img src="assets/img/comedores/5.png">
-                </div>
-                <div class="columna">
-                    <img src="assets/img/comedores/6.png">
-                </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/2.png">
+                    <img src="assets/img/comedores/2.png" alt="Comedores">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/3.png">
+                    <img src="assets/img/comedores/3.png" alt="Comedores">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/4.png">
+                    <img src="assets/img/comedores/4.png" alt="Comedores">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/5.png">
+                    <img src="assets/img/comedores/5.png" alt="Comedores">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/img/comedores/6.png">
+                    <img src="assets/img/comedores/6.png" alt="Comedores">
+                </a>
             </div>
         </div>
-    </section>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .row {
+                padding-top: 5rem;
+                padding-left: 3rem;
+                --bs-gutter-x: 0rem;
+                --bs-gutter-y: 2rem;
+            }
+
+            img {
+                /* Para que sea responsiva */
+                width: 85%;
+                padding: 0rem;
+            }
+
+            img:hover {
+                transform: scale(1.13);
+            }
+        </style>
+    </div>
 
 
     <!-- Footer-->
@@ -171,10 +137,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Instagram"><i
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/galeria.delmueble/" aria-label="Instagram"><i
                             class="fab fa-instagram"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Linkedin"><i
+                            class="fab fa-linkedin"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Whatsapp"><i
                             class="fab fa-fw fa-whatsapp"></i></a>
                 </div>
